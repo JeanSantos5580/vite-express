@@ -4,7 +4,7 @@ type User = {
   id: number;
   name: string;
 };
-
+ 
 const App: React.FC = () => {
   const [users, setUsers] = useState<User[]>([]);
 
